@@ -165,6 +165,11 @@ public:
         addRoad(3,9,6);  // F-9 <-> G-9
         addRoad(1,11,6); // F-7 <-> E-7
         addRoad(2,12,6); // F-8 <-> E-8
+        addRoad(3,9,6);   // F-9  <-> G-9
+        addRoad(4,10,6);  // F-10 <-> G-10
+
+        addRoad(3,13,6);  // F-9  <-> E-9
+        addRoad(4,14,6);  // F-10 <-> E-10
 
         // F sector extension
         addRoad(16,0,5); // F-5 <-> F-6
@@ -845,4 +850,5 @@ int main() {
 
     return 0;
 }
+
 
